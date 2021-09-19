@@ -30,10 +30,12 @@ public class Calendar1 {
 			
 		//1일이 월요일인 경우
 		case 2:		
+			//첫 주인 1일부터 6일까지 출력
 			System.out.print("    ");
 			for(int i = 1; i<=6; i++) {
 				System.out.print(" " + i + "  ");
 			}
+			//둘째주인 7일부터 출력
 			System.out.println();
 			for(int j = 7; j<last; j++) {
 				for(int k = 0; k<7; k++) {
